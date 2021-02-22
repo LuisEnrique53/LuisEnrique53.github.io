@@ -1,0 +1,73 @@
+*{
+	font-family: times new roman;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: azure;
+}
+
+
+table, th, td{
+	border: 1px solid black;
+    margin: auto;
+    table-layout: fixed;
+}
+
+.container{
+	margin: auto;
+	width: 50%;
+	border: 2px solid green;
+	padding: 10px;
+	text-align: center; 
+}
+.general-wrapper > h2{
+	color: red;
+}
+.general-wrapper{
+	background:#90a4ae42; 
+	padding: 25px;
+    border-radius: 5px;
+    border-left: 3px solid green;
+    position: relative;
+    text-align: center;
+}
+
+aside{
+	position: relative;
+	widows: 40%;
+}
+
+footer{
+	position: bottom;
+	display: block;
+	text-align: right;
+}
+
+footer .pie_pagina {
+	columns: 2;
+	position: relative;
+	align-content: space-around;
+    text-align: start;
+}
+
+.hobbies{
+	background:#90a4ae42; 
+	padding: 0.1%;
+    border-radius: 5px;
+    border-left: 3px solid green;
+    position: relative;
+    text-align: center;
+}
+
+.hobbies > h3{
+	color: DarkGreen;
+}
+
+.buttons{
+	text-align: right;
+	cursor: pointer;
+	color: red;
+}
